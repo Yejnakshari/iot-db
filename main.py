@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Initialize Firebase
-cred = credentials.Certificate('IOT-Project.json')
+cred = credentials.Certificate('smart-egg-incubator-aa1fd-firebase-adminsdk-nrfjb-f65af4b64c.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
